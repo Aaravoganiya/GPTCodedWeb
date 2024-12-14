@@ -68,10 +68,11 @@ p {
 
 /* About Section */
 section {
-  padding: 50px 20px;
+  padding: 80px 20px;  /* Increased padding for more space */
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   border-radius: 10px;
+  margin-bottom: 60px; /* Added margin for space between sections */
 }
 
 section h2 {
@@ -87,7 +88,15 @@ section p {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-/* Projects Section */
+/* My Projects Section */
+#projects {
+  padding: 80px 20px;  /* Increased padding for more space */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  border-radius: 10px;
+  margin-bottom: 60px; /* Added margin for space between sections */
+}
+
 .project-list {
   display: flex;
   justify-content: space-between;
@@ -101,6 +110,7 @@ section p {
   width: 30%;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px; /* Added space between project items */
 }
 
 .project:hover {
@@ -118,6 +128,14 @@ section p {
 }
 
 /* Contact Form */
+#contact {
+  padding: 80px 20px; /* Increased padding for more space */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent for visibility */
+  border-radius: 10px;
+  margin-bottom: 60px; /* Added margin for space between sections */
+}
+
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -149,6 +167,7 @@ button:hover {
   background-color: #004d00;
 }
 
+/* Footer */
 footer {
   background-color: #111;
   text-align: center;
