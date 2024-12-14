@@ -71,10 +71,10 @@ body {
 /* Menu Links - Neon Blue with Glow */
 .menu a {
   text-decoration: none;
-  color: #00bfff; /* Neon Blue color */
+  color: #00bfff; /* Pure Neon Blue color */
   font-size: 1.2rem;
   font-family: 'Courier New', Courier, monospace; /* Matches the rest of the website */
-  text-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff; /* Glowing neon effect */
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff, 0 0 40px #00bfff; /* Strong glowing neon effect */
   padding: 10px;
   border-radius: 5px;
   transition: background 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease; /* Smooth glow transition */
@@ -83,9 +83,9 @@ body {
 /* Menu Link Hover Effect */
 .menu a:hover {
   color: #00bfff; /* Keep neon blue color */
-  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 60px #00bfff; /* Enhanced neon glow effect on hover */
+  text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff, 0 0 60px #00bfff, 0 0 90px #00bfff; /* Intensified neon blue glow */
   transform: scale(1.1); /* Subtle zoom effect */
-  background: rgba(0, 191, 255, 0.2); /* Slight neon blue hover background */
+  background: rgba(0, 191, 255, 0.1); /* Subtle neon blue hover background */
 }
 
 /* Change the hamburger icon when the menu is open */
