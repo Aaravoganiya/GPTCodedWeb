@@ -163,11 +163,11 @@ section p {
 
 /* My Projects Section */
 #projects {
-  padding: 80px 20px;  /* Increased padding for more space */
+  padding: 80px 20px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   border-radius: 10px;
-  margin-bottom: 60px; /* Added margin for space between sections */
+  margin-bottom: 60px;
 }
 
 .project-list {
@@ -178,28 +178,31 @@ section p {
 }
 
 .project {
-  background-color: rgba(0, 255, 0, 0.1);
+  background: linear-gradient(135deg, rgba(0, 191, 255, 0.3), rgba(0, 0, 0, 0.8)); /* Neon blue gradient */
   padding: 20px;
   width: 30%;
   border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, background 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6); /* Glowing neon blue shadow */
 }
 
 .project h3 {
   font-size: 1.5rem;
-  color: #00bfff; /* Neon Blue color for text */
+  color: #00bfff; /* Neon blue text */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 .project p {
   font-size: 1rem;
-  color: #00bfff; /* Neon Blue color for text */
+  color: #00bfff; /* Neon blue text */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 .project:hover {
   transform: scale(1.05);
-}
+  background: linear-gradient(135deg, rgba(0, 191, 255, 0.5), rgba(0, 0, 0, 0.9)); /* Slightly brighter on hover */
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+  }
 
 /* Contact Section */
 #contact {
