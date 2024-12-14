@@ -3,94 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hacker House Inspired</title>
+  <title>AARAV - Hacker's Haven</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="menu-container">
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div id="menu" class="hidden">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
   <header>
-    <div class="container">
-      <a href="#" class="logo">Hacker Hub</a>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button id="menu-toggle">Menu</button>
+    <div class="overlay">
+      <h1>Welcome to AARAV's World</h1>
+      <p>A place where cybersecurity meets innovation.</p>
+      <a href="#about" class="cta-button">Explore More</a>
     </div>
   </header>
 
-  <section id="home">
-    <div class="hero">
-      <h1>Welcome to Hacker Hub</h1>
-      <p>Your gateway to innovation and tech education.</p>
-      <a href="#services" class="cta-button">Learn More</a>
-    </div>
+  <section id="about">
+    <h2>About AARAV</h2>
+    <p>AARAV is a cybersecurity enthusiast, ethical hacker, and developer with a mission to safeguard the digital realm. With extensive expertise in penetration testing, AARAV has been a prominent figure in exposing vulnerabilities in major systems.</p>
   </section>
 
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service">
-          <h3>Workshops</h3>
-          <p>Interactive sessions with industry experts.</p>
-        </div>
-        <div class="service">
-          <h3>Consulting</h3>
-          <p>Expert guidance on tech projects.</p>
-        </div>
-        <div class="service">
-          <h3>Online Courses</h3>
-          <p>Learn tech skills from anywhere in the world.</p>
-        </div>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Project: Cyber Sentinel</h3>
+        <p>A network monitoring tool built to detect real-time threats and mitigate risks effectively.</p>
       </div>
-    </div>
-  </section>
-
-  <section id="blog">
-    <div class="container">
-      <h2>Latest Blog Posts</h2>
-      <div class="blog-grid">
-        <article>
-          <h3>How to Secure Your Systems</h3>
-          <p>Learn the latest cybersecurity practices.</p>
-          <a href="#">Read more</a>
-        </article>
-        <article>
-          <h3>The Future of AI</h3>
-          <p>What’s next in artificial intelligence?</p>
-          <a href="#">Read more</a>
-        </article>
+      <div class="project">
+        <h3>Project: SecureVault</h3>
+        <p>A password manager ensuring secure, encrypted storage of sensitive information.</p>
       </div>
     </div>
   </section>
 
   <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+    <h2>Contact</h2>
+    <p>If you're interested in collaborating or need cybersecurity solutions, feel free to reach out.</p>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2024 Hacker Hub. All rights reserved.</p>
-      <div class="socials">
-        <a href="#">Twitter</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-      </div>
-    </div>
+    <p>© 2024 AARAV. All Rights Reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-                </html>
+                                            </html>
