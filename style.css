@@ -182,12 +182,13 @@ footer p {
   transition: all 0.3s ease;
 }
 
-#menu ul {
+/* Menu hidden by default */
+#menu {
   list-style: none;
   background-color: #333;
   padding: 20px;
   border-radius: 10px;
-  display: none;
+  display: none;  /* Hidden by default */
   position: absolute;
   top: 50px;
   right: 0;
@@ -230,7 +231,7 @@ footer p {
     margin-bottom: 20px;
   }
 
-  #menu ul {
+  #menu {
     position: relative;
     top: 0;
   }
@@ -244,4 +245,4 @@ footer p {
     font-size: 1.2rem;
     padding: 12px 25px;
   }
-}
+    }
