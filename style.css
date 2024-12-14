@@ -55,7 +55,7 @@ body {
   list-style: none;
   background: linear-gradient(135deg, rgba(0, 191, 255, 0.3), rgba(0, 0, 0, 0.8)); /* Neon blue gradient */
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6); /* Neon blue glow */
+  box-shadow: 0 0 20px rgba(0, 191, 255, 1); /* Neon blue glow */
   display: none;
   padding: 10px;
   position: fixed;
