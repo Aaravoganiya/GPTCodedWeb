@@ -47,17 +47,21 @@ body {
   transform: scale(1.05);
 }
 
-.menu {
-  position: fixed;
-  top: 70px;
-  right: 20px;
+#menu.show {
+  display: block;
+}
+
+#menu {
+  list-style: none;
   background: linear-gradient(135deg, rgba(0, 191, 255, 0.3), rgba(0, 0, 0, 0.8)); /* Neon blue gradient */
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 191, 255, 0.6); /* Neon blue glow */
   display: none;
-  flex-direction: column;
   padding: 10px;
-  z-index: 999;
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .menu.active {
