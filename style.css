@@ -62,14 +62,16 @@ body {
   margin: 10px 0;
 }
 
+/* Menu Links - Neon Blue */
 #menu ul li a {
-  color: #00ff00;
+  color: #00bfff; /* Neon Blue color */
   text-decoration: none;
   font-size: 1.2rem;
+  transition: color 0.3s ease;
 }
 
 #menu ul li a:hover {
-  color: #004d00;
+  color: #004d6b; /* Darker blue when hovered */
 }
 
 /* Change the hamburger icon when the menu is open */
@@ -274,4 +276,4 @@ footer p {
     font-size: 1.2rem;
     padding: 12px 25px;
   }
-    }
+}
