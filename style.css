@@ -251,17 +251,17 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #1a1a1a;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #00bfff; /* Neon Blue color */
-  position: fixed;
-  bottom: 0;
+  position: relative;
   width: 100%;
+  display: block;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 footer p {
   font-size: 1rem;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-}
+  }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
