@@ -73,18 +73,20 @@ body {
   text-decoration: none;
   color: #00bfff; /* Neon Blue color */
   font-size: 1.2rem;
-  font-family: 'Courier New', Courier, monospace; /* Matching font with the rest of the site */
-  text-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff; /* Glowing effect */
+  font-family: 'Courier New', Courier, monospace; /* Matches the rest of the website */
+  text-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff; /* Glowing neon effect */
   padding: 10px;
   border-radius: 5px;
-  transition: background 0.3s ease, transform 0.3s ease;
+  transition: background 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease; /* Smooth glow transition */
 }
 
 /* Menu Link Hover Effect */
 .menu a:hover {
-  background: rgba(0, 191, 255, 0.2); /* Slight neon blue hover effect */
-  transform: scale(1.1);
-}
+  color: #004d6b; /* Slightly darker blue on hover */
+  text-shadow: 0 0 5px #004d6b, 0 0 15px #004d6b, 0 0 30px #004d6b, 0 0 40px #004d6b; /* Enhanced glow effect on hover */
+  transform: scale(1.1); /* Subtle zoom effect */
+  background: rgba(0, 191, 255, 0.2); /* Slight neon blue hover background */
+  }
 
 /* Change the hamburger icon when the menu is open */
 .menu-icon {
