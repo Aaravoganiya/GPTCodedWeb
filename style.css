@@ -17,18 +17,6 @@ body {
   position: relative;
 }
 
-/* Overlay for the entire page */
-.overlay-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
-  z-index: 0;
-  box-shadow: inset 0 0 15px rgba(0, 255, 0, 0.5); /* Greenish inner shadow */
-}
-
 /* Hero Section */
 header {
   position: relative;
@@ -41,7 +29,7 @@ header {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   padding: 20px;
   border-radius: 10px;
 }
@@ -52,12 +40,14 @@ h1 {
   margin-bottom: 20px;
   text-transform: uppercase;
   animation: fadeIn 2s ease-in-out;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
 }
 
 p {
   color: #fff;
   margin-bottom: 30px;
   font-size: 1.2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
 }
 
 .cta-button {
@@ -76,11 +66,11 @@ p {
   transform: scale(1.1);
 }
 
-/* About Section - Remove blur and background opacity */
+/* About Section */
 section {
   padding: 50px 20px;
   text-align: center;
-  background-color: transparent; /* Set to transparent, no opacity */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   border-radius: 10px;
 }
 
@@ -88,11 +78,13 @@ section h2 {
   font-size: 3rem;
   margin-bottom: 20px;
   color: #00ff00;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 section p {
   font-size: 1.1rem;
   color: #ddd;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 /* Projects Section */
@@ -129,7 +121,7 @@ section p {
 form {
   max-width: 600px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.7);  /* Adjusted for transparency */
+  background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent for visibility */
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
