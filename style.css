@@ -82,11 +82,11 @@ body {
 
 /* Menu Link Hover Effect */
 .menu a:hover {
-  color: #004d6b; /* Slightly darker blue on hover */
-  text-shadow: 0 0 5px #004d6b, 0 0 15px #004d6b, 0 0 30px #004d6b, 0 0 40px #004d6b; /* Enhanced glow effect on hover */
+  color: #00bfff; /* Keep neon blue color */
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 60px #00bfff; /* Enhanced neon glow effect on hover */
   transform: scale(1.1); /* Subtle zoom effect */
   background: rgba(0, 191, 255, 0.2); /* Slight neon blue hover background */
-  }
+}
 
 /* Change the hamburger icon when the menu is open */
 .menu-icon {
