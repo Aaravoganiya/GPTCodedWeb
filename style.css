@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 5rem 1rem;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 3rem 0;
+}
+
+.services-grid, .blog-grid {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
