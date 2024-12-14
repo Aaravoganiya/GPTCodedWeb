@@ -1,72 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AARAV - The Hacker</title>
+    <title>Aarav - Hacker Introduction</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Overlay for the entire page -->
-    <div class="overlay-background"></div>
-
-    <!-- Menu Button -->
+    <!-- Menu Icon Button -->
     <div id="menu-container">
-        <div class="menu-icon" onclick="toggleMenu()">
+        <div class="menu-icon" id="menu-toggle">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact Aarav</a></li>
+        </ul>
     </div>
 
-    <!-- Navigation Menu (Initially Hidden) -->
-    <ul id="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-
-    <!-- Hero Section (Home Section) -->
+    <!-- Home Section -->
     <header id="home">
         <div class="overlay">
-            <h1>Welcome to AARAV</h1>
-            <p>Your journey into the world of hacking begins here.</p>
+            <h1>Aarav</h1>
+            <p>Welcome to the world of hacking and technology.</p>
             <a href="#about" class="cta-button">Learn More</a>
         </div>
     </header>
 
     <!-- About Section -->
     <section id="about">
-        <h2>About AARAV</h2>
-        <p>Aarav is an experienced hacker with expertise in cybersecurity, programming, and ethical hacking. He is passionate about breaking barriers and solving complex challenges in the world of tech.</p>
+        <h2>About Aarav</h2>
+        <p>Aarav is a skilled hacker with expertise in various cybersecurity fields...</p>
     </section>
 
-    <!-- Projects Section (Optional) -->
+    <!-- My Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
         <div class="project-list">
             <div class="project">
                 <h3>Project 1</h3>
-                <p>Description of the project.</p>
+                <p>Details about Project 1.</p>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
-                <p>Description of the project.</p>
+                <p>Details about Project 2.</p>
             </div>
             <div class="project">
                 <h3>Project 3</h3>
-                <p>Description of the project.</p>
+                <p>Details about Project 3.</p>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact AARAV</h2>
-        <form action="#" method="post">
+        <h2>Contact Aarav</h2>
+        <form action="#">
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <textarea placeholder="Your Message" required></textarea>
@@ -76,16 +69,9 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 AARAV. All Rights Reserved.</p>
+        <p>&copy; 2024 Aarav. All Rights Reserved.</p>
     </footer>
 
-    <!-- JavaScript to toggle menu visibility -->
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            menu.style.display = (menu.style.display === "block") ? "none" : "block";
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
-
-                                      </html>
+                    </html>
