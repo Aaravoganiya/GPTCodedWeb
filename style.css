@@ -17,6 +17,74 @@ body {
   position: relative;
 }
 
+/* Menu Icon Button */
+#menu-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.menu-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bar {
+  background-color: #00ff00;
+  height: 4px;
+  width: 30px;
+  transition: all 0.3s ease;
+}
+
+/* Show the menu when the 'show' class is added */
+#menu.show {
+  display: block;
+}
+
+#menu {
+  list-style: none;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;  /* Hidden by default */
+  position: absolute;
+  top: 50px;
+  right: 0;
+  box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3);
+}
+
+#menu ul li {
+  margin: 10px 0;
+}
+
+#menu ul li a {
+  color: #00ff00;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#menu ul li a:hover {
+  color: #004d00;
+}
+
+/* Change the hamburger icon when the menu is open */
+.menu-icon.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
 /* Hero Section */
 header {
   position: relative;
@@ -180,67 +248,6 @@ footer p {
   font-size: 1rem;
 }
 
-/* Navigation Menu */
-#menu-container {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-}
-
-.menu-icon {
-  cursor: pointer;
-  width: 30px;
-  height: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.bar {
-  background-color: #00ff00;
-  height: 4px;
-  width: 30px;
-  transition: all 0.3s ease;
-}
-
-/* Menu hidden by default */
-#menu {
-  list-style: none;
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px;
-  display: none;  /* Hidden by default */
-  position: absolute;
-  top: 50px;
-  right: 0;
-  box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3);
-}
-
-#menu ul li {
-  margin: 10px 0;
-}
-
-#menu ul li a {
-  color: #00ff00;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-#menu ul li a:hover {
-  color: #004d00;
-}
-
-/* Animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   .project-list {
@@ -267,4 +274,4 @@ footer p {
     font-size: 1.2rem;
     padding: 12px 25px;
   }
-  }
+    }
