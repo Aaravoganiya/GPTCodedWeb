@@ -80,6 +80,22 @@ body {
                               }
 
 /* Change the hamburger icon when the menu is open */
+.menu-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bar {
+  background-color: #00bfff;
+  height: 4px;
+  width: 30px;
+  transition: all 0.3s ease;
+}
+
 .menu-icon.open .bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
