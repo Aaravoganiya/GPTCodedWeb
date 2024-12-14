@@ -74,6 +74,7 @@ body {
   color: #00bfff; /* Pure Neon Blue color */
   font-size: 1.2rem;
   font-family: 'Courier New', Courier, monospace; /* Matches the rest of the website */
+  font-weight: 600; /* Slightly bold font weight */
   text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff, 0 0 40px #00bfff; /* Strong glowing neon effect */
   padding: 10px;
   border-radius: 5px;
